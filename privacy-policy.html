@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filebrief — Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.65;
+      color: #1a1a1a;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+    .container {
+      max-width: 880px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.08);
+      overflow: hidden;
+    }
+    header {
+      background: #0f2a3d;
+      color: #fff;
+      padding: 36px 28px;
+      text-align: center;
+    }
+    h1 { font-size: 2rem; margin-bottom: 8px; font-weight: 700; }
+    .subtitle { opacity: .9; font-size: 1.05rem; }
+    .content { padding: 36px 28px; }
+    .last-updated { color: #666; font-style: italic; margin-bottom: 22px; }
+    h2 { color: #0f2a3d; margin: 28px 0 12px; font-size: 1.35rem; }
+    h2:first-of-type { margin-top: 0; }
+    p { margin-bottom: 14px; }
+    ul { margin: 0 0 18px 22px; }
+    li { margin-bottom: 8px; }
+    .box {
+      background: #f0f5f9;
+      border-left: 4px solid #1f6b8a;
+      padding: 16px 18px;
+      margin: 18px 0;
+      border-radius: 4px;
+    }
+    a { color: #1f6b8a; font-weight: 600; }
+    footer {
+      background: #f8f9fa;
+      padding: 18px 28px;
+      text-align: center;
+      color: #666;
+      font-size: .9rem;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6rem; }
+      .content { padding: 28px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Filebrief</h1>
+      <p class="subtitle">Privacy Policy</p>
+    </header>
+    <div class="content">
+      <p class="last-updated">Last updated: 2 November 2026</p>
+
+      <h2>1. Who we are</h2>
+      <p>
+        This Privacy Policy applies to the <strong>Filebrief</strong> Meta application
+        “Filebrief Deal Inbox” (the “App”) and related Filebrief Host software operated
+        for a customer firm (the “Firm”). The Firm’s designated operator controls the
+        Filebrief Host instance that receives and stores WhatsApp Business messages.
+      </p>
+
+      <h2>2. What this App does</h2>
+      <p>
+        Filebrief is an internal deal / document assistant. The WhatsApp integration lets
+        authorized Firm staff forward business messages and files to the Firm’s WhatsApp
+        Business number. Those messages are delivered by Meta’s WhatsApp Cloud API to the
+        Firm’s Filebrief Host, where they appear in the Firm’s Emails &amp; Messages inbox
+        for deal work.
+      </p>
+      <div class="box">
+        This is <strong>not</strong> a consumer social app. It is intended for Firm staff
+        and the Firm’s own WhatsApp Business account, not for public end-user signup.
+      </div>
+
+      <h2>3. Data we process</h2>
+      <p>Depending on how the Firm configures the App, processing may include:</p>
+      <ul>
+        <li>WhatsApp message content (text and, in later features, media metadata/files)</li>
+        <li>Sender phone numbers (E.164) and WhatsApp profile display names</li>
+        <li>Message identifiers, timestamps, and delivery/webhook metadata from Meta</li>
+        <li>Staff allowlist entries linking phone numbers to Firm users/roles</li>
+        <li>Technical logs needed to operate and secure the webhook (for example signature validation results)</li>
+      </ul>
+      <p>
+        Meta Platforms, Inc. processes WhatsApp traffic as the messaging platform provider
+        under Meta’s own terms and policies while messages transit WhatsApp / Cloud API.
+      </p>
+
+      <h2>4. How we use data</h2>
+      <ul>
+        <li>To ingest inbound WhatsApp messages into the Firm’s Filebrief Host inbox</li>
+        <li>To enforce staff allowlisting and security controls (signature checks, audit events)</li>
+        <li>To support deal filing, search, and related Firm workflows inside Filebrief</li>
+        <li>To operate, troubleshoot, and secure the integration</li>
+      </ul>
+      <p>We do not sell personal data. We do not use WhatsApp content for advertising.</p>
+
+      <h2>5. Where data is stored</h2>
+      <p>
+        Message content accepted by the integration is stored on the <strong>Firm’s Filebrief Host</strong>
+        (on-premises or firm-controlled appliance), not in a Filebrief multi-tenant public cloud inbox.
+        Meta may retain WhatsApp platform data according to Meta’s policies.
+      </p>
+
+      <h2>6. Sharing</h2>
+      <p>Data may be shared only with:</p>
+      <ul>
+        <li>Meta / WhatsApp, as required to provide Cloud API messaging</li>
+        <li>The Firm’s authorized users and administrators of that Filebrief Host</li>
+        <li>Service providers the Firm engages to host or support its own infrastructure, under the Firm’s contracts</li>
+        <li>Authorities when required by law</li>
+      </ul>
+
+      <h2>7. Retention</h2>
+      <p>
+        Retention follows the Firm’s Filebrief Host configuration and internal policies
+        (including any legal hold or export rules the Firm enables). Webhook raw payloads
+        may be retained temporarily for replay, audit, and troubleshooting.
+      </p>
+
+      <h2>8. Security</h2>
+      <p>
+        In transit to the Host, Meta webhooks are authenticated (for example HMAC signature
+        verification). Access inside Filebrief is limited to authenticated Firm users under
+        the Host’s access controls. No security measure is perfect; the Firm is responsible
+        for securing its Host, network, and accounts.
+      </p>
+
+      <h2>9. Your choices and rights</h2>
+      <p>
+        Staff can stop forwarding messages to the business number. Firm administrators can
+        remove phones from the allowlist and manage retention on the Host. Depending on your
+        location, you may have rights to access, correct, delete, or restrict processing of
+        personal data. To exercise rights relating to data on a Filebrief Host, contact the
+        Firm that operates that Host. For WhatsApp platform account matters, use Meta/WhatsApp
+        in-product controls and Meta’s privacy channels.
+      </p>
+
+      <h2>10. Children</h2>
+      <p>The App is not directed to children under 16 and is not intended for consumer child use.</p>
+
+      <h2>11. International transfers</h2>
+      <p>
+        WhatsApp / Meta may process data in regions where Meta operates. Firm Host storage
+        location depends on where the Firm deploys Filebrief.
+      </p>
+
+      <h2>12. Changes</h2>
+      <p>
+        We may update this Privacy Policy from time to time. The “Last updated” date at the
+        top will change when we do. Continued use of the App after an update constitutes
+        acceptance of the revised policy where permitted by law.
+      </p>
+
+      <h2>13. Contact</h2>
+      <p>
+        Privacy questions about this Meta App or Filebrief documentation:
+        open an issue on
+        <a href="https://github.com/Realightua/filebrief-privacy-policy/issues">github.com/Realightua/filebrief-privacy-policy</a>.
+      </p>
+      <p>
+        For data stored on a specific Firm’s Host, contact that Firm’s Filebrief administrator.
+      </p>
+
+      <div class="box">
+        This page is provided to meet Meta’s public Privacy Policy URL requirement for the
+        Filebrief Deal Inbox app. It is not legal advice. Firms should align Host retention
+        and staff notices with their own counsel and local law (including GDPR where applicable).
+      </div>
+    </div>
+    <footer>
+      © 2026 Filebrief ·
+      <a href="https://github.com/Realightua/filebrief-privacy-policy">Source on GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
